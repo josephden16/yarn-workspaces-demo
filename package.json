@@ -1,0 +1,7 @@
+{
+  "name": "yarn-workspaces-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Denedo <tegajoseph2002@gmail.com>",
+  "license": "MIT"
+}
