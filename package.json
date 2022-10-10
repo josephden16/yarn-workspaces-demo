@@ -1,7 +1,17 @@
 {
-  "name": "yarn-workspaces-demo",
+  "name": "yarn-monorepo",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "author": "Denedo <tegajoseph2002@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "backend/",
+    "frontend/",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd backend start",
+    "build": "yarn --cwd frontend build"
+  }
 }
